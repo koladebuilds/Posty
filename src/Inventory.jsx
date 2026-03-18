@@ -4,6 +4,7 @@ import Create from "./inventory_components/Create"
 import {useContext, useState} from "react"
 import { AppNameContext } from "./context/AppNameContext"
 import { ProductContext } from "./context/ProductContext"
+import Footer from "./inventory_components/Footer"
 
 
 const Inventory = () => {
@@ -21,6 +22,7 @@ const Inventory = () => {
             </div>
             <Create/>
             <Products/>
+            <Footer/>
         </div>
     )
 }
